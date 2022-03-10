@@ -10,6 +10,11 @@ API_VERSION=<version for api, ie. v1>
 DATABASE=<database_connection_string>
 DATABASE_PASSWORD=<database_password>
 
+To run app use:
+node run start - normal
+node run dev - for nodemon
+node run start:prod - setting NODE_ENV as production
+
 Also the template is using prettier and eslint on vscode, install extensions for better use
 
 For testing, run project as npm run dev. Postman, CURL can be used for testing CRUD API:
